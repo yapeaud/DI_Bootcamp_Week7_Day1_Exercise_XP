@@ -22,7 +22,7 @@
     <?php
         class factorial_of_a_number
         {
-        protected $_n;
+        public $_n;
         public function  __construct($n)
         {
             if (!is_int($n))
@@ -50,7 +50,7 @@
     <?php
         class array_sort
         {
-            protected $_asort;
+            public $_asort;
             
             public function __construct(array $asort)
             {
